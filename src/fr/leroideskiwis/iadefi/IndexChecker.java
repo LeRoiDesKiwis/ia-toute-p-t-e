@@ -9,7 +9,7 @@ public class IndexChecker {
 
     public void check(String toCheck){
 
-        sentences.forEach(sentence -> sentence.checkAll(toCheck));
+        sentences.forEach(sentence -> sentence.check(toCheck));
 
     }
 

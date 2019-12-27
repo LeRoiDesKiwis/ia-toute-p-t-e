@@ -9,7 +9,7 @@ public class Sentence {
         this.sentence = sentence.toLowerCase();
     }
 
-    public void checkAll(String toCheck){
+    public void check(String toCheck){
         int total = 0;
         toCheck = toCheck.toLowerCase();
 
