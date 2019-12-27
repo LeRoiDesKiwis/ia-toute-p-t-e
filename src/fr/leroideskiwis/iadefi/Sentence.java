@@ -29,10 +29,10 @@ public class Sentence {
         while(indexSentence < sentence.length() && indexCheck < toCheck.length()){
 
             if(checkChars[indexCheck] == sentenceChars[indexSentence]){
-                indexCheck++;
+                indexSentence++;
                 total++;
             }
-            else indexSentence++;
+            else indexCheck++;
         }
 
         pourc = ( total * 100 ) / Math.sqrt(toCheck.length() * sentence.length());
