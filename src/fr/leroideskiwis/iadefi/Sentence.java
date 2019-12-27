@@ -44,6 +44,6 @@ public class Sentence {
 
     @Override
     public String toString() {
-        return sentence+" : "+pourc;
+        return sentence+" : "+pourc+"%";
     }
 }
