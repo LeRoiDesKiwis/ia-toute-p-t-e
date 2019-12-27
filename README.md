@@ -1,1 +1,2 @@
-# ia-toute-p-t-e
+# ia-toute-pétée
+Ceci est une ia à 10%
